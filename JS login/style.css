@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#theme{
+    z-index: 2;
+    position: absolute;
+    right: 30px;
+    border-radius: 10%;
+    width: 5%;
+    height: 5%;
+    border: none;
+    background-color: rgb(138, 122, 122);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#theme:hover{
+    background-color: rgb(89, 122, 193);
+}
+
+#welcome-signin{
+    display: flex;
+    height: 100%;
+    padding-top: 20%;
+}
+
+#welcome-btn{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(181, 186, 184);
+    text-align: center;
+    margin: 0 auto;
+    height: 30vh;
+    width: 20vw;
+    border-radius: 20px;
+}
+
+#welcome-h1{
+    margin-top: 40px;
+}
+
+#welcome-signin-btn:active{
+    background-color:blanchedalmond;
+}
+
+#welcome-signin-btn{
+    /* width: 50%; */
+    height: 20%;
+    margin: 0 auto;
+    width: 10vw;
+    margin-top: 80px;
+    border-radius: 20px;
+    border-style:dashed;
+}
+
+#signin-outerdiv{
+    /* background-color: aliceblue; */
+    display: none;
+    vertical-align: middle;
+    height: 90vh;
+    align-items: center;
+}
+
+#signin-box{
+    background-color: rgb(210, 208, 208);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20vw;
+    height: 40%;
+    margin: 0 auto;
+    border-radius: 25px;
+    padding-top: 25px;
+    overflow: none;
+}
+
+#signin-box input{
+    width: 70%;
+}
+
+#signin-btn{
+    display: flex;
+    width: 100%;
+}
+
+#submit-link{
+    width: 50%;
+}
+
+#submit-btn{
+    width: 100%;
+}
+
+/* #back-btn{
+    width: 40%;
+    height: 3vh;
+    overflow: hidden;
+} */
+
+#back-btn{
+    width: 7vw;
+    text-align: center;
+    overflow: hidden;
+}
+
+.dark{
+    color: white;
+    background-color: black;
+}
+
+.light{
+    color: black;
+    background-color: white;
+}
